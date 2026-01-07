@@ -1,0 +1,33 @@
+body {
+  background: #0e0e0e;
+  color: white;
+  font-family: Arial;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold;
+}
